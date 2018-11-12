@@ -1,12 +1,12 @@
 import React from 'react';
-import Article from './Article';
+import ArticleList from './ArticleList';
 import articles from '../data';
 
 function App() {
     return (
         <div>
             <h1>My app Hello!</h1>
-            <Article article = {articles[0]} ssss="sss"/>
+            <ArticleList articles = {articles} />
         </div>
     )
 }
